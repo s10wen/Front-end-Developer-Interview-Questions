@@ -127,7 +127,7 @@ This file contains a number of front-end interview questions that can be used wh
 * What is the difference between `==` and `===`?
 * Explain the same-origin policy with regards to JavaScript.
 * Make this work:
-```javascript
+```JavaScript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
@@ -139,7 +139,7 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What is the extent of your experience with Promises and/or their polyfills?
 * What are the pros and cons of using Promises instead of callbacks?
 * What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
-* What tools and techniques do you use debugging Javascript code?
+* What tools and techniques do you use debugging JavaScript code?
 * What language constructions do you use for iterating over object properties and array items?
 
 #### Testing Questions:
@@ -172,28 +172,28 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 #### Coding Questions:
 
 *Question: What is the value of `foo`?*
-```javascript
+```JavaScript
 var foo = 10 + '20';
 ```
 
 *Question: How would you make this work?*
-```javascript
+```JavaScript
 add(2, 5); // 7
 add(2)(5); // 7
 ```
 
 *Question: What value is returned from the following statement?*
-```javascript
+```JavaScript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 
 *Question: What is the value of `window.foo`?*
-```javascript
+```JavaScript
 ( window.foo || ( window.foo = "bar" ) );
 ```
 
 *Question: What is the outcome of the two alerts below?*
-```javascript
+```JavaScript
 var foo = "Hello";
 (function() {
   var bar = " World";
@@ -203,14 +203,14 @@ alert(foo + bar);
 ```
 
 *Question: What is the value of `foo.length`?*
-```javascript
+```JavaScript
 var foo = [];
 foo.push(1);
 foo.push(2);
 ```
 
 *Question: What is the value of `foo.x`?*
-```javascript
+```JavaScript
 var foo = {n: 1};
 var bar = foo;
 foo.x = foo = {n: 2};
